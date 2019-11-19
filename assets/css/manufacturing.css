@@ -1,0 +1,16 @@
+.technology__brands {
+    padding: 33px;
+}
+
+.technology__brands .standarts-list__item {
+    width: 50%;
+    margin-bottom: 60px;
+}
+
+.technology--manufacturing .technology__left {
+    height: 700px;
+}
+
+.technology--manufacturing .technology__right {
+    height: 700px;
+}
