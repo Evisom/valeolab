@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96a17c9a-b727-425a-af5d-f71c83c3a437" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/contacts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/popup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

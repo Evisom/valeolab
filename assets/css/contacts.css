@@ -76,6 +76,10 @@
     padding: 10px 35px;
 }
 
+.contacts-button:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
 
     .contacts {
@@ -84,5 +88,84 @@
 
     .contacts-container {
         min-height: 900px;
+    }
+}
+
+
+
+
+
+
+
+
+.card-subtitle {
+    margin-top: 17px;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #00C7FF;
+}
+
+.card-buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-display: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.card-buttons-getconsultation {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    background: #F1574B;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    padding: 15px 25px;
+    white-space: nowrap;
+}
+
+.card-buttons-getconsultation:hover {
+    cursor: pointer;
+}
+
+.card-buttons-wathcvideo {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.card-buttons-wathcvideo > svg {
+    margin-right: 17px;
+}
+
+#hero_container-fix {
+    padding: 0 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+}
+
+@media (max-width: 1200px) {
+    .card-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #hero_container-fix {
+        padding-top: 40px;
+        padding-bottom: 90px;
+        padding-left: 20px;
+    }
+
+    .card-subtitle {
+        font-size: 24px;
+    }
+    .card-buttons-wathcvideo {
+        margin-top: 40px;
     }
 }

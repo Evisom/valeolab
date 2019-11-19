@@ -53,6 +53,14 @@
     margin-top: 24px;
 }
 
+.popup-call-button-close:hover {
+    cursor: pointer;
+}
+
+.popup-call-button-submit:hover {
+    cursor: pointer;
+}
+
 .popup-call-button-close {
     text-align: right;
     width: 100%;
