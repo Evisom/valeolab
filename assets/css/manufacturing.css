@@ -21,6 +21,7 @@
 .goods {
     color: #272727;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .goods.container {
@@ -45,7 +46,7 @@
 
 .goods__button {
     background: #C5EFFF;
-    padding: 8px 20px;
+    padding: 21px 20px;
     text-align: center;
     font-size: 20px;
     border: none;
@@ -53,11 +54,52 @@
     cursor: pointer;
     width: 100%;
     margin-bottom: 8px;
+    height: 61px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    display: block;
 }
 
 .goods__button:hover {
     background: #00AEEF;
     color: white;
+}
+
+@media screen and (min-width: 1200px) {
+    .goods {
+        height: 600px;
+    }
+
+    .goods__img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .goods__content {
+        width: 780px;
+        padding: 30px 90px;
+        font-size: 21px;
+        line-height: 31px;
+    }
+    
+    .goods__buttons {
+        width: 780px;
+        padding: 30px 90px;
+    }
+
+    .goods__button {
+        width: 45%;
+        float: left;
+        margin-right: 18px;
+    }
+
+    .goods__button:nth-child(2n) {
+        margin-right: 5%;
+        margin-bottom: 2.5%;
+    }
 }
 
 /** COOPERATION */
