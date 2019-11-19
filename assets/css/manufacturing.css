@@ -24,6 +24,7 @@
 .steps__item {
     padding: 20px;
     text-align: center;
+    position: relative;
 }
 
 .steps__icon {
@@ -47,10 +48,24 @@
     line-height: 24px;
 }
 
-.steps__arrow--bottom {
+.steps__arrow {
     width: 8px;
     height: 40px;
     margin-top: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+    .steps__item  {
+        width: 25%;
+        float: left;
+    } 
+
+    .steps__arrow {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        transform: rotate(-90deg);
+    }
 }
 
 /* BIG 4 BLOCKS */
