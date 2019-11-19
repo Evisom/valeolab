@@ -93,10 +93,7 @@
 
 
 
-
-
-
-
+/* header */
 
 .card-subtitle {
     margin-top: 17px;
@@ -104,68 +101,52 @@
     line-height: 40px;
     letter-spacing: -1px;
     color: #00C7FF;
+    margin-bottom: 30px;
+    font-size: 24px;
 }
 
-.card-buttons {
-    margin-top: 30px;
-    display: flex;
-    flex-display: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-}
 
 .card-buttons-getconsultation {
     font-size: 16px;
     line-height: 32px;
-    letter-spacing: -0.3px;
     color: #FFFFFF;
     background: #F1574B;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.05);
     border-radius: 30px;
     padding: 15px 25px;
     white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 36px;
+    margin-right: 50px;
 }
 
 .card-buttons-getconsultation:hover {
     cursor: pointer;
 }
 
-.card-buttons-wathcvideo {
-    display: flex;
-    align-items: center;
+.card-buttons-watchcvideo {
+    display: inline-block;
     font-size: 16px;
     line-height: 21px;
+    position: relative;
     color: #FFFFFF;
+    padding-left: 70px;
+    cursor: pointer;
 }
-.card-buttons-wathcvideo > svg {
+.card-buttons-watchcvideo > svg {
     margin-right: 17px;
+    position: absolute;
+    top: -18px;
+    left: 0;
 }
 
-#hero_container-fix {
-    padding: 0 20px 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 420px;
-}
-
-@media (max-width: 1200px) {
-    .card-buttons {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    #hero_container-fix {
-        padding-top: 40px;
-        padding-bottom: 90px;
-        padding-left: 20px;
-    }
+@media (min-width: 1200px) {
 
     .card-subtitle {
-        font-size: 24px;
+        font-size: 32px;
     }
-    .card-buttons-wathcvideo {
-        margin-top: 40px;
+
+    .card-buttons-watchcvideo {
+        margin-bottom: 40px;
     }
 }
