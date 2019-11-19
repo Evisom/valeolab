@@ -1,16 +1,37 @@
-.technology__brands {
-    padding: 33px;
+.clear::after {
+    clear: both;
+    display: table;
+    content: '';
 }
 
-.technology__brands .standarts-list__item {
+
+/* BIG 4 BLOCKS */
+.technology__brand-item {
     width: 50%;
-    margin-bottom: 60px;
+    float: left;
+    margin: 50px 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .technology__brand-item {
+        width: 25%;
+        text-align: left;
+    } 
+}
+
+.technology--manufacturing {
+    position: relative;
 }
 
 .technology--manufacturing .technology__left {
-    height: 700px;
+    min-height: 600px;
 }
 
 .technology--manufacturing .technology__right {
-    height: 700px;
+    min-height: 600px;
+}
+
+.technology__brands {
+    margin-bottom: 30px;
 }
