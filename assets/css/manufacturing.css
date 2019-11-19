@@ -22,6 +22,10 @@
     color: #272727;
 }
 
+.cooperation.container {
+    padding: 0;
+}
+
 .cooperation__item {
     margin-bottom: 20px;
 }
@@ -37,7 +41,7 @@
 .cooperation__header > span{
     color: #00AEEF;
     position: absolute;
-    left: -28px;
+    left: -1em;
 }
 
 .cooperation__content {
@@ -66,11 +70,43 @@
 }
 
 .cooperation__img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .cooperation__article {
     padding: 30px 20px 30px 50px;
+}
+
+@media screen and (min-width: 1200px) {
+    .cooperation__img {
+        width: 50%;
+    } 
+
+    .cooperation__article {
+        width: 50%;
+        padding: 80px 80px 80px 100px;
+    }
+
+    .cooperation__header {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .cooperation__item:nth-child(2n-1) .cooperation__img {
+        float: left;
+    }
+
+    .cooperation__item:nth-child(2n-1) .cooperation__article  {
+        float: right;
+    }
+
+    .cooperation__item:nth-child(2n) .cooperation__img{
+        float: right;
+    }
+
+    .cooperation__item:nth-child(2n) .cooperation__article {
+        float: left;
+    }
 }
 
 /* STEPS */
