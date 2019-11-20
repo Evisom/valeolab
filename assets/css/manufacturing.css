@@ -19,8 +19,11 @@
 
 /* HEADER */
 
-.card {
-    padding: 115px 125px 50px 0;
+
+@media screen and (min-width: 1200px) {
+    .card {
+        padding: 115px 125px 50px 0;
+    }
 }
 
 .card-subtitle {
@@ -342,8 +345,36 @@
 
 /* CONTACTS */
 
+.contacts-bg {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+
+    .contacts-bg {
+        display: block;
+        position: absolute;
+    }
+
+    #leave-sm {
+        left: -13px;
+        top: -84px;
+    }
+
+    #leaves {
+        right: -476px;
+        top: -97px;
+    }
+
+    #tube {
+        left: -559px;
+        top: -73px;
+    }
+
+}
+
 .contacts-container {
-    height: 700px;
+    padding: 100px 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -353,8 +384,8 @@
 }
 
 .contacts {
-    height: 500px;
-    width: 792px;
+    padding: 90px 120px;
+    max-width: 800px;
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
@@ -362,6 +393,7 @@
     display: flex;
     flex-direction: column;
     align-items: inherit;
+    position: relative;
 }
 
 .contacts-title {
@@ -370,7 +402,6 @@
     text-align: center;
     letter-spacing: -1px;
     color: #272727;
-    margin-top: 110px;
 }
 
 .contacts-subtitle {
@@ -422,17 +453,6 @@
 
 .contacts-button:hover {
     cursor: pointer;
-}
-
-@media (max-width: 768px) {
-
-    .contacts {
-        width: 100%;
-    }
-
-    .contacts-container {
-        min-height: 900px;
-    }
 }
 
 /** POPUP */
