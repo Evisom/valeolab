@@ -10,4 +10,10 @@ window.onload = function () {
     buttonClose.onclick = function () {
         popup.classList.remove("popup-call-container-active");
     }
+
+
+    $("#scrollbottom").click(function() {
+        $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+        return false;
+      });
 }
