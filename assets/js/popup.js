@@ -33,4 +33,10 @@ window.onload = function () {
         popupVideo.classList.remove("is-active");
         player.pause();
     }
+
+
+    $("#scrollbottom").click(function() {
+        $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+        return false;
+      });
 }
